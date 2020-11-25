@@ -1,0 +1,52 @@
+/**
+* some font family.. 
+*/
+/*Goldman*/
+@import url('https://fonts.googleapis.com/css2?family=Goldman&display=swap'); 
+/*font-family: 'Xanh Mono', monospace;*/
+@import url('https://fonts.googleapis.com/css2?family=Xanh+Mono&display=swap'); 
+
+/**
+*full body style.. 
+*/
+*{color:#56FFFF; font-family: 'Goldman', cursive;}
+.full-body{ min-height:100vh; background-color:#000000; background-image:url('../images/bg1.png'); 	background-repeat:no-repeat; background-size:100%; }
+
+.header{ }
+.navbar-default{ background:transparent; border:0px; height:15vh; }
+
+.navbar-default ul{ margin-top:25px; margin-bottom:25px; }
+.navbar-default ul li{}
+.navbar-default ul li a{ border:3px solid #56FFFF; margin-right:10px; margin-top:2px; color:#56FFFF !important; border-radius:0px 10px; font-weight:bold; text-transform: uppercase;	font-family: 'Goldman', cursive; font-size:1.1em; background:rgba(0,0,0,0.7);}
+.navbar-default ul li a:hover{ border-radius:10px 0px;background:rgba(0,0,0,0.7) !important;}
+
+/**
+*body style.. 
+*/
+.body-content{ height:75vh; }
+.title-box{ border:3px solid #56FFFF; max-height:20vh; margin-bottom:3vh; margin-top:4vh; padding:5px 15px; background:rgba(0,0,0,0.7); }
+.title-box h3{ font-family: 'Goldman', cursive; margin:8px; }
+.content-box-left{ border:3px solid #56FFFF; min-height:48vh; background:rgba(0,0,0,0.7); }
+.btn-pan{ margin-top:1vh; font-family: 'Goldman', cursive; }
+.btn-slide{ color:#56FFFF; background:none; border:0px; font-size:1.2em; margin-left:10px; border-radius:0px; }
+.radars{ margin-top:1vh; }
+.radar-title{ font-family:'Goldman' cursive !important; font-weight:Bold; }
+.radar-signal{ width:90px; height:80px; }
+.bubble{ background:rgba(0,0,0,0.7); }
+/**
+*tutorial part style 
+*/
+.tutorial-box-home{ font-size:20px; padding:25px 15px; }
+
+.bubble-category{
+	height:60vh;
+}
+.category-menu{ list-style:none; vertical-align:auto; padding:10vh; }
+.category-menu li{ list-style:none; }
+.category-menu li a{ margin-top:10px; border-radius:0px; background:rgba(0,0,0,0.7); border:2px solid #56FFFF; font-size:1em; text-transform: uppercase; color:#56FFFF; }
+/**
+*footr style.. 
+*/
+.footer{ height:3.5vh; line-height:3.5vh; text-decoration:none; text-align:left; }
+.footer a{color:#56FFFF; font-weight:bold; }
+
